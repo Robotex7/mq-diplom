@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: Open-sans;
-  src: url("/fonts/OpenSans-Regular.woff");
+  src: url("../fonts/OpenSans-Regular.woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -14,7 +14,7 @@
 
 @font-face {
   font-family: Open-sans;
-  src: url("/fonts/OpenSans-Bold.woff");
+  src: url("../fonts/OpenSans-Bold.woff");
   font-weight: 400;
   font-style: bold;
   font-display: swap;
@@ -22,7 +22,7 @@
 
 h3 {
   text-transform: uppercase;
-  font-family: Open-sans-bold, sans-serif;
+  font-family: Open-sans, sans-serif;
   font-size: 14px;
   font-weight: 400;
   font-style: bold;
@@ -50,7 +50,7 @@ body {
 .header {
   padding-top: 28px;
   padding-bottom: 130px;
-  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg");
+  background-image: url("../images/banner-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -112,7 +112,7 @@ body {
 .welcome-title {
   color: #fff;
   text-align: center;
-  font-family: Open-sans-bold, sans-serif;
+  font-family: Open-sans, sans-serif;
   font-size: 45px;
   text-transform: uppercase;
   margin: auto;
@@ -188,7 +188,7 @@ body {
   position: absolute;
   width: 10px;
   height: 20px;
-  background-image: url(/svg/form-arrows.svg);
+  background-image: url(../svg/form-arrows.svg);
   background-size: cover;
   background-repeat: no-repeat;
   bottom: 40px;
@@ -234,7 +234,7 @@ body {
   position: absolute;
   width: 17px;
   height: 17px;
-  background-image: url(/svg/form-empty-circle.svg);
+  background-image: url(../svg/form-empty-circle.svg);
   top: 0;
   left: 0;
   cursor: pointer;
@@ -243,7 +243,7 @@ body {
 }
 
 .radio-check:checked~.radio-text::before {
-  background-image: url(/svg/form-circle.svg);
+  background-image: url(../svg/form-circle.svg);
 }
 
 .text-area {
@@ -326,25 +326,25 @@ body {
 }
 
 .trand-1 {
-  background-image: url(/images/trend1.jpg);
+  background-image: url(../images/trend1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .trand-2 {
-  background-image: url(/images/trend2.jpg);
+  background-image: url(../images/trend2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .trand-3 {
-  background-image: url(/images/trend3.jpg);
+  background-image: url(../images/trend3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .trand-4 {
-  background-image: url(/images/trend4.jpg);
+  background-image: url(../images/trend4.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -389,7 +389,7 @@ body {
 }
 
 .main {
-  width: 778px;
+  max-width: 778px;
 }
 
 .card {
@@ -566,7 +566,7 @@ body {
 }
 
 .src-button {
-  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/search.svg");
+  background-image: url("../svg/search.svg");
   background-color: #b59f5b;
   background-position: center;
   background-repeat: no-repeat;
@@ -630,7 +630,7 @@ body {
   height: 47px;
   border: none;
   outline: none;
-  font-family: Open-sans-bold, sans-serif;
+  font-family: Open-sans, sans-serif;
   font-size: 14px;
   text-align: center;
   background-color: #b59f5b;
@@ -681,7 +681,7 @@ body {
 .tag-link {
   padding: 4px 14px;
   text-transform: uppercase;
-  font-family: Open-sans-bold, sans-serif;
+  font-family: Open-sans, sans-serif;
   font-size: 12px;
   display: block;
 }
@@ -714,7 +714,7 @@ body {
 }
 
 .themes-item {
-  font-family: Open-sans-bold, sans-serif;
+  font-family: Open-sans, sans-serif;
   font-size: 14px;
   border-bottom: 1px solid #ededed;
   padding-bottom: 16px;
@@ -738,8 +738,7 @@ body {
 .shop {
   max-width: 1200px;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
+  text-align: center;
 }
 
 .our-craft {
@@ -777,8 +776,6 @@ body {
 }
 
 .craft-container {
-  display: flex;
-  flex-direction: column;
   outline-offset: 20px;
   outline: 3px solid #d3c59d;
   flex-grow: 1;
@@ -870,15 +867,15 @@ body {
 }
 
 .link-dribbble {
-  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/001-dribbble.svg");
+  background-image: url("../svg/001-dribbble.svg");
 }
 
 .link-pinterest {
-  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/002-pinterest.svg");
+  background-image: url("../svg/001-pinterest.svg");
 }
 
 .link-tumblr {
-  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/003-tumblr.svg");
+  background-image: url("../svg/003-tumblr.svg");
 }
 
 .copyright {
