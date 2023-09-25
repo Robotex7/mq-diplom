@@ -1142,7 +1142,7 @@ body {
 
   .card-img {
     margin-right: 0;
-    min-width: 100%;
+    width: 100%;
   }
 
   .card-content {
@@ -1279,7 +1279,7 @@ body {
 
   .card-img {
     margin-right: 0;
-    min-width: 100%;
+    width: 100%;
   }
 
   .card-content {
