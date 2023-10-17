@@ -143,17 +143,20 @@ body {
   width: 390px;
   background-color: #fff;
   position: fixed;
-  padding: 53px 30px;
+  padding: 40px 30px;
 }
 
 .pop_up_close {
-  width: 25px;
-  height: 25px;
-  font-size: 40px;
+  background-image:url(../svg/form-x.svg);
+  width: 18px;
+  height: 18px;
   position: absolute;
-  top: -45px;
   right: 0;
+  border: 0;
+  background-color: transparent;
+  margin-top: -60px;
   color: #fff;
+  cursor: pointer;
 }
 
 .button {
@@ -170,13 +173,12 @@ body {
 
 .header-pop-up::after {
   content: "";
+  display: block;
+  margin: 0 auto;
   width: 66px;
-  height: 3px;
-  background-color: #b59f5b;
-  display: flex;
-  margin-top: 12px;
-  margin-right: auto;
-  margin-left: auto;
+  padding-top: 11px;
+  border-bottom: 4px solid #b59f5b;
+  opacity: 0.4;
 }
 
 .frequency-area {
@@ -248,10 +250,11 @@ body {
 
 .text-area {
   resize: none;
-  width: 330px;
+  width: 100%;
   height: 130px;
   background-color: #f4f7f6;
-  border: none;
+  border: 2px solid black;
+  border-radius: 3px;
   padding-left: 19px;
   padding-top: 19px;
   color: #707171;
@@ -355,6 +358,9 @@ body {
   padding: 38px;
   max-height: 320px;
   z-index: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .tegs_item_link {
@@ -390,7 +396,8 @@ body {
 }
 
 .main {
-  max-width: 778px;
+  max-width: 100%;
+  margin: 0;
 }
 
 .card {
@@ -411,7 +418,7 @@ body {
   width: 381px;
   height: 294px;
   background-color: #eff6f1;
-  margin-bottom: 60px;
+  margin: 0 20px 60px 0
 }
 
 .card-content {
@@ -738,7 +745,6 @@ body {
 .shop {
   max-width: 1200px;
   margin: 0 auto;
-  text-align: center;
 }
 
 .our-craft {
@@ -935,6 +941,7 @@ body {
   }
 
   .card-img {
+    width: 1200px;
     max-width: 100%;
     margin: 0;
   }
@@ -1014,7 +1021,7 @@ body {
   }
 
   .page-container {
-    max-width: 70%;
+    max-width: 100%;
   }
 
   .card {
@@ -1025,6 +1032,7 @@ body {
   }
 
   .card-img {
+    width: 1200px;
     max-width: 100%;
     margin: 0;
   }
@@ -1127,6 +1135,7 @@ body {
   .page {
     flex-direction: column;
     padding: 44px 15px;
+    width: 100%;
   }
 
   .card {
@@ -1138,7 +1147,8 @@ body {
 
   .card-img {
     margin-right: 0;
-    width: 100%;
+    width: 640px;
+    max-width: 100%;
   }
 
   .card-content {
@@ -1275,7 +1285,8 @@ body {
 
   .card-img {
     margin-right: 0;
-    width: 100%;
+    width: 640px;
+    max-width: 100%;
   }
 
   .card-content {

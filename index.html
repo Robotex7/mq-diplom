@@ -85,7 +85,7 @@
             <button class="pop-up-button">Отправить</button>
         </form>
     </div>
-    <aside class="trends-content">
+    <div class="trends-content">
         <div class="trends">
             <h2 class="trends-header">Сейчас в тренде</h2>
             <div class="trends-gallery">
@@ -93,11 +93,12 @@
                     <div class="trend-container trand-1">
                         <ul class="trend-content">
                             <li><a href="#" class="tegs_item_link">Lifestyle</a></li>
-                            <li><a href="#" class="tegs_item_link">Interior</a></li>                            <h2 class="trend-name">
+                            <li><a href="#" class="tegs_item_link">Interior</a></li>       
+                            <h2 class="trend-name">
                                 <a href="" class="trend-link">
                                     Сейчас в тренде: сад на подоконнике
                                 </a>
-                            </h2>
+                            </h2>                     
                         </ul>
                     </div>
                 </article>
@@ -122,7 +123,7 @@
                                 <a href="" class="trend-link">
                                     Собираемся в первый поход в горы
                                 </a>
-                            </h2>
+                            </h2>   
                         </ul>
                     </div>
                 </aticle>
@@ -141,14 +142,14 @@
                 </aticle>
             </div>
         </div>
-    </aside>
+    </div>
     <div class="page">
         <div class="page-container">
             <main class="main">
                 <article class="card">
                     <div class="card-img">
                         <img src="./images/last-post1.jpg"
-                            alt="Красивая местность" width="381px">
+                            alt="Красивая местность">
                     </div>
                     <div class="card-content">
                         <ul class="card-list">
@@ -179,7 +180,7 @@
                 <article class="card">
                     <div class="card-img">
                         <img src="./images/last-post2.jpg"
-                            alt="Йога на пляже" width="381px">
+                            alt="Йога на пляже">
                     </div>
                     <div class="card-content">
                         <ul class="card-list">
@@ -209,7 +210,7 @@
                 <article class="card">
                     <div class="card-img">
                         <img src="./images/last-post3.jpg"
-                            alt="Музыкальный фестиваль" width="381px">
+                            alt="Музыкальный фестиваль">
                     </div>
                     <div class="card-content">
                         <ul class="card-list">
@@ -237,7 +238,7 @@
                 <article class="card">
                     <div class="card-img">
                         <img src="./images/last-post4.jpg"
-                            alt="Обеденный стол" width="381px">
+                            alt="Обеденный стол">
                     </div>
                     <div class="card-content">
                         <ul class="card-list">
@@ -267,7 +268,7 @@
                 <article class="card">
                     <div class="card-img">
                         <img src="./images/last-post5.jpg"
-                            alt="Подушка" width="381px">
+                            alt="Подушка">
                     </div>
                     <div class="card-content">
                         <ul class="card-list">
@@ -300,7 +301,7 @@
                 <article class="card">
                     <div class="card-img">
                         <img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post6.jpg"
-                            alt="Горы" width="381px">
+                            alt="Горы">
                     </div>
                     <div class="card-content">
                         <ul class="card-list">
@@ -330,7 +331,7 @@
                 <article class="card">
                     <div class="card-img">
                         <img src="./images/last-post4.jpg"
-                            alt="Обеденный стол" width="381px">
+                            alt="Обеденный стол">
                     </div>
                     <div class="card-content">
                         <ul class="card-list">
@@ -506,8 +507,13 @@
     <section class="shop">
         <h2 class="our-craft">Наши изделия</h2>
         <div class="shop-container">
-            <div class="craft-item-card">
-                <img src="./images/shop-item-desk1.jpg" alt="Подушки" class="craft-img">
+            <article class="craft-item-card">
+                <picture>
+                    <source srcset="images/shop-item-desk1.jpg" media="(min-width: 1200px)">
+                    <source srcset="images/shop-item-tablet1.jpg" media="(min-width: 641px)">
+                    <source srcset="images/shop-item-mobile1.jpg" media="(max-width: 640px)">
+                    <img class="products-foto" src="images/shop-item-mobile1.jpg" alt="Подушки на диван">
+                </picture>
                 <div class="craft-container">
                     <h2 class="craft-name">Подушки на диван</h2>
                     <p class="cradt-dscrt">Набор из двух падушек с модными принтами. Видео о создании <a href="" class="craft-link">Здесь</a>.</p>
@@ -519,9 +525,14 @@
                         <button class="in-shop">В магазин</button>
                     </div>
                 </div>
-            </div>
-            <div class="craft-item-card">
-                <img src="./images/shop-item-desk2.jpg" alt="Кукла" class="craft-img">
+            </article>
+            <article class="craft-item-card">
+                <picture>
+                    <source srcset="images/shop-item-desk2.jpg" media="(min-width: 1200px)">
+                    <source srcset="images/shop-item-tablet2.jpg" media="(min-width: 641px)">
+                    <source srcset="images/shop-item-mobile2.jpg" media="(max-width: 640px)">
+                    <img class="products-foto" src="images/shop-item-mobile2.jpg" alt="Кукла Зайчик">
+                </picture>
                 <div class="craft-container">
                     <h2 class="craft-name">Кукла "зайчик"</h2>
                     <p class="cradt-dscrt">Интерьерная рукодельная кукла "Зайчик", созданию которой посвещена <a href="" class="craft-link">весеняя серия постов</a> в блоге и несколько подкастов.</p>
@@ -532,9 +543,14 @@
                         <button class="in-shop">В магазин</button>
                     </div>
                 </div>
-            </div>
-            <div class="craft-item-card">
-                <img src="./images/shop-item-desk3.jpg" alt="Рамка" class="craft-img">
+            </article>
+            <article class="craft-item-card">
+                <picture>
+                    <source srcset="images/shop-item-desk3.jpg" media="(min-width: 1200px)">
+                    <source srcset="images/shop-item-tablet3.jpg" media="(min-width: 641px)">
+                    <source srcset="images/shop-item-mobile3.jpg" media="(max-width: 640px)">
+                    <img class="products-foto" src="images/shop-item-mobile3.jpg" alt="Шестиугольная рамка">
+                </picture>
                 <div class="craft-container">
                     <h2 class="craft-name">Шестиугольная рамка</h2>
                     <p class="cradt-dscrt">Необычная рамка для украшения дома из видео <a href="" class="craft-link">"Как сделать рамку из подручных средств за 30 минут"</a></p>
@@ -546,7 +562,7 @@
                         <button class="in-shop">В магазин</button>
                     </div>
                 </div>
-            </div>
+            </article>
         </div>
     </section>
     <footer class="footer">
